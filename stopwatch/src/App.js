@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>ANASWATCH</h1>
+        <h1>STOPWATCH</h1>
       </header>
     <div>
       <span>{("0" + Math.floor((time/60000)%60))}:</span>

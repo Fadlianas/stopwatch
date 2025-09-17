@@ -1,12 +1,24 @@
+*{
+    background: #03223f;
+    color: #fff;
+    text-align: center;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .start{
-  margin-right: 10px;
+  background: #000;
 }
 .pause{
   margin-right: 10px;
+  background: #000
+}
+.restart{
+  background: #000
+  
 }
 
 

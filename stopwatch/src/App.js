@@ -46,12 +46,12 @@ function switchbutton(){
     }
 
   return (
-    <div className="App">
+  <div>
       <header className="App-header">
-        <h1>STOPWATCH</h1>
+        <h1 className="title">STOPWATCH</h1>
       </header>
-
-    <div>
+  <div className="App">
+    <div className="watch">
       <span>{("0" + Math.floor((time/60000)%60)).slice(-2)}:</span>
       <span>{("0" + Math.floor((time/1000)%60)).slice(-2)}:</span>
       <span>{("0" + Math.floor((time/10)%100)).slice(-2)}</span>
@@ -59,6 +59,7 @@ function switchbutton(){
 
     <div>
     {switchbutton()}
+    </div>
     </div>
     </div>
   );
